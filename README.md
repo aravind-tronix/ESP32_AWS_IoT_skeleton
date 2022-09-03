@@ -1,5 +1,5 @@
 # ESP32_AWS_IoT_skeleton
-A end to end skeleton on IoT with ESP32 and AWS IoT core. Two way communication via MQTT. ESP32 firmware and AWS lambda for device connectivity logging in DynamoDB. This project enables connectivity to ESP32 to enable and disable a GPIO pin which is connected to a in-build LED on the board via MQTT. This physical pin can be further attached to a relay to controll home/industrial appliances.
+An end to end skeleton on IoT with [ESP32](https://www.espressif.com/en/products/socs/esp32) and AWS IoT core. Two way communication via MQTT. ESP32 firmware and AWS lambda for device connectivity logging in DynamoDB. This project enables connectivity to ESP32 to enable and disable a GPIO pin which is connected to a in-build LED on the board via MQTT. This physical pin can be further attached to a relay to controll home/industrial appliances.
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -10,9 +10,9 @@ A IoT based simple controller system using ESP32 via MQTT.
 - ✨Magic ✨
 
 ## ESP32
-[ESP32](https://www.espressif.com/en/products/socs/esp32) series are Powerful Wi-Fi+Bluetooth/Bluetooth LE modules that target a wide variety of AIoT applications, ranging from low-power sensor networks to the most demanding tasks. In this, esp32 devkit v1 is used as the IoT device since it is a qualified IoT hardware by [AWS IoT Platform](https://devices.amazonaws.com/detail/a3G0h0000077nRtEAI/ESP32-WROOM-32SE)
+[ESP32](https://www.amazon.in/xcluma-Development-Bluetooth-Ultra-Low-Consumption/dp/B075YSNVPJ/ref=sr_1_3?crid=8U0GRGTC8WL3&keywords=esp32&qid=1662192779&sprefix=esp3%2Caps%2C270&sr=8-3) series are Powerful Wi-Fi+Bluetooth/Bluetooth LE modules that target a wide variety of AIoT applications, ranging from low-power sensor networks to the most demanding tasks. In this, esp32 devkit v1 is used as the IoT device since it is a qualified IoT hardware by [AWS IoT Platform](https://devices.amazonaws.com/detail/a3G0h0000077nRtEAI/ESP32-WROOM-32SE)
 
-| Hadwared | Specs |
+| Hardware | Specs |
 | ------ | ------ |
 | Number of cores | 2 (dual core) |
 | Wi-Fi | 2.4 GHz up to 150 Mbits/s |
